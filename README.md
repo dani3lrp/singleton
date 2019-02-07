@@ -5,7 +5,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### bitácora
 # día 1
 
-~~~ng new singleton --routing~~~
+~~~
+ng new singleton --routing
+~~~
 
 en app.module.ts =>  
 
