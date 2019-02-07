@@ -35,10 +35,11 @@ en index.html =>
 ~~~
 npm install bootstrap --save-dev
 ~~~
-** warning una vulneravilidad por lo cual => npm-upgrade
-#npm install jquery --save-dev  
-#npm install popper.js --save  
-#npm install tether --save  
-
+** warning una vulneravilidad por lo cual => `npm-upgrade`
+~~~
+npm install jquery --save-dev  
+npm install popper.js --save  
+npm install tether --save  
+~~~
 configuré typescript en 3.2.4 en package.json porque no me andaba  
 
