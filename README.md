@@ -15,15 +15,16 @@ import { registerLocaleData } from '@angular/common';
 import localeEs from '@angular/common/locales/es';  
 import localeEsExtra from '@angular/common/locales/extra/es';  
 registerLocaleData(localeEs, 'es-ES', localeEsExtra);  
+  
 
-providers: [
-    { provide: LOCALE_ID, useValue: 'es' }
+providers:[
+{ provide: LOCALE_ID, useValue: 'es' }
 ],  
-
+  
 en index.html  
-
-<html lang="es">  
-
+  
+<html lang="es">   
+  
 #npm install bootstrap --save-dev
 ** warning una vulneravilidad por lo cual => npm-upgrade
 #npm install jquery --save-dev
