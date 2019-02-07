@@ -1,24 +1,20 @@
-# Singleton
+## Singleton
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
-****************************************************************
-# bitácora
-## día 1
+
+### bitácora
+# día 1
 
 #ng new singleton --routing
-----------------------------------------------------------------
-----------------------------------------------------------------
+
 app.module.ts
-----------------------------------------------------------------
-import { LOCALE_ID, NgModule } from '@angular/core';
 
-configurar español
-import { registerLocaleData } from '@angular/common';
-import localeEs from '@angular/common/locales/es';
-import localeEsExtra from '@angular/common/locales/extra/es';
-registerLocaleData(localeEs, 'es-ES', localeEsExtra);
-
-
+import { LOCALE_ID, NgModule } from '@angular/core';  
+configurar español  
+import { registerLocaleData } from '@angular/common';  
+import localeEs from '@angular/common/locales/es';  
+import localeEsExtra from '@angular/common/locales/extra/es';  
+registerLocaleData(localeEs, 'es-ES', localeEsExtra);  
 
   providers: [
     { provide: LOCALE_ID, useValue: 'es' }
