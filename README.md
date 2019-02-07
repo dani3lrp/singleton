@@ -14,14 +14,43 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## bitácora
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#ng new singleton --routing
+----------------------------------------------------------------
+----------------------------------------------------------------
+app.module.ts
+----------------------------------------------------------------
+import { LOCALE_ID, NgModule } from '@angular/core';
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+//configurar español
+import { registerLocaleData } from '@angular/common';
+import localeEs from '@angular/common/locales/es';
+import localeEsExtra from '@angular/common/locales/extra/es';
+registerLocaleData(localeEs, 'es-ES', localeEsExtra);
+.
+.
+.
+  providers: [
+    { provide: LOCALE_ID, useValue: 'es' }
+  ],
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+index.html
+-----------------------------------------------------------------
+.
+.
+.
+<html lang="es">
+.
+.
+.
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+#npm install bootstrap --save-dev
+** warning una vulneravilidad por lo cual => npm-upgrade
+#npm install jquery --save-dev
+#npm install popper.js --save
+#npm install tether --save
+-----------------------------------------------------------------
+configuré typescript en 3.2.4 en package.json porque no me andaba
