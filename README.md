@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 #ng new singleton --routing
 
-app.module.ts
+en app.module.ts =>  
 
 import { LOCALE_ID, NgModule } from '@angular/core';  
 configurar español  
@@ -21,7 +21,7 @@ providers:[
 { provide: LOCALE_ID, useValue: 'es' }
 ],  
   
-en index.html  
+en index.html =>  
   
 <html lang="es">   
   
