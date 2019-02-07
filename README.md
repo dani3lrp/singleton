@@ -12,7 +12,7 @@ app.module.ts
 ----------------------------------------------------------------
 import { LOCALE_ID, NgModule } from '@angular/core';
 
-//configurar español
+configurar español
 import { registerLocaleData } from '@angular/common';
 import localeEs from '@angular/common/locales/es';
 import localeEsExtra from '@angular/common/locales/extra/es';
