@@ -1,9 +1,9 @@
-## Singleton
+# Singleton
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
 
 ### bitácora
-# día 1
+## día 1
 
 ~~~
 ng new singleton --routing
@@ -42,4 +42,8 @@ npm install popper.js --save
 npm install tether --save  
 ~~~
 configuré typescript en 3.2.4 en package.json porque no me andaba  
+
+## día 2
+
+
 
