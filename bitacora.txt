@@ -29,3 +29,8 @@ index.html
 .
 -------------------------------------------------------------
 -------------------------------------------------------------
+npm install bootstrap --save-dev
+** warning una vulneravilidad por lo cual => npm-upgrade
+npm install jquery --save-dev
+npm install popper.js --save
+npm install tether --save
