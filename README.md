@@ -30,9 +30,11 @@ en index.html =>
   
 ~~~
 <html lang="es">   
-
 ~~~  
-#npm install bootstrap --save-dev  
+
+~~~
+npm install bootstrap --save-dev
+~~~
 ** warning una vulneravilidad por lo cual => npm-upgrade
 #npm install jquery --save-dev  
 #npm install popper.js --save  
