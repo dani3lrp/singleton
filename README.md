@@ -17,9 +17,9 @@ import { registerLocaleData } from '@angular/common';
 import localeEs from '@angular/common/locales/es';
 import localeEsExtra from '@angular/common/locales/extra/es';
 registerLocaleData(localeEs, 'es-ES', localeEsExtra);
-.
-.
-.
+
+
+
   providers: [
     { provide: LOCALE_ID, useValue: 'es' }
   ],
@@ -27,13 +27,13 @@ registerLocaleData(localeEs, 'es-ES', localeEsExtra);
 -----------------------------------------------------------------
 index.html
 -----------------------------------------------------------------
-.
-.
-.
+
+
+
 <html lang="es">
-.
-.
-.
+
+
+
 -----------------------------------------------------------------
 -----------------------------------------------------------------
 #npm install bootstrap --save-dev
