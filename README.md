@@ -9,7 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ng new singleton --routing
 ~~~
 
-en app.module.ts =>  
+en ***app.module.ts*** =>  
 
 ~~~
 import { LOCALE_ID, NgModule } from '@angular/core';  
@@ -26,7 +26,7 @@ providers:[
 
 ~~~
 
-en index.html =>  
+en ***index.html*** =>  
   
 ~~~
 <html lang="es">   
@@ -35,13 +35,26 @@ en index.html =>
 ~~~
 npm install bootstrap --save-dev
 ~~~
-** warning una vulneravilidad por lo cual => `npm-upgrade`
+** warning al servir app, una vulneravilidad por lo cual => `npm-upgrade`
 ~~~
 npm install jquery --save-dev  
 npm install popper.js --save  
 npm install tether --save  
 ~~~
-configuré typescript en 3.2.4 en package.json porque no me andaba  
+configuré typescript en 3.2.4 en ***package.json*** porque no me andaba  
+
+En ***angular.json*** =>
+~~~
+            "styles": [
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",           
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+~~~
 
 ## día 2
 
