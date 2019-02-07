@@ -9,6 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 en app.module.ts =>  
 
+~~~
 import { LOCALE_ID, NgModule } from '@angular/core';  
 configurar español  
 import { registerLocaleData } from '@angular/common';  
@@ -20,11 +21,15 @@ registerLocaleData(localeEs, 'es-ES', localeEsExtra);
 providers:[
 { provide: LOCALE_ID, useValue: 'es' }
 ],  
-  
+
+~~~
+
 en index.html =>  
   
+~~~
 <html lang="es">   
-  
+
+~~~  
 #npm install bootstrap --save-dev  
 ** warning una vulneravilidad por lo cual => npm-upgrade
 #npm install jquery --save-dev  
